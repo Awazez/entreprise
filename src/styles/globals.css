@@ -2,8 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;900&display=swap');
+
+input {
+  width: 383px;
+  height: 44px;
+  background-color: #231F20;
+  border: 2px solid #45413E;
+  margin-left: 20px;
+  
+}
+
+input:focus {
+  border: 1px solid #F38BA3;
+  
+}
+
+button {
+  width: 83px;
+  height: 44px;
+  color: black;
+  background-color: #FCBB29;
+  border-radius: 20px;
+  margin-left: 20px;
+
+}
+
+.title {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 64px;
+  color: #FAF2D9;
+  text-align: center;
+  font-weight: 900;
+}
+
+.title2 {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FAF2D9;
+}
+
+
+.subtitle {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.gg {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 64px;
+  color: #F38BA3;
+}
+
+.box {
+  width: 605px;
+  height: 158px;
+  background-color: #231F20;
+  border-radius: 20px;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 14, 13, 14;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
